@@ -137,6 +137,8 @@ gs://zoomcamp-food-prices-abdelkarem/processed/faostat_clean/*
 
 Built using Looker Studio:
 
+Dashboard link: https://datastudio.google.com/reporting/e85a77b2-7835-4abc-b30e-9b07b9c53f63
+
 * Average price trends over time
 * Price comparison by product
 * Price distribution by country
