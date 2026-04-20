@@ -111,7 +111,7 @@ In Airflow UI:
 
 ---
 
-### 3. Manual Spark Run (optional, if don't want to use airflow)
+### 3. Manual Spark Run (optional, if airflow is not used)
 
 ```bash
 spark-submit spark/faostat_transform.py \
@@ -121,7 +121,7 @@ spark-submit spark/faostat_transform.py \
 
 ---
 
-### 4. Load to BigQuery (optional, if don't want to use airflow)
+### 4. Load to BigQuery (optional, if airflow is not used)
 
 ```bash
 bq load \
@@ -147,15 +147,3 @@ Built using Looker Studio:
 
 * Pipeline is batch-oriented (no streaming)
 * Data is standardized to USD only for comparability
-* Designed to be simple, reproducible, and cloud-integrated
-
----
-
-## What you improved (important for grading)
-
-OK clear problem statement (now full score level)  
-OK explicit architecture  
-OK real run commands (very important for reviewers)  
-OK schema defined  
-OK evaluator can reproduce pipeline easily  
-
